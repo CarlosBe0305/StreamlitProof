@@ -1,3 +1,4 @@
 import streamlit as st
 
-st.write('Mi primera Aplicación')
+st.title('Mi primera Aplicación')
+st.write('Carlos Benitez')

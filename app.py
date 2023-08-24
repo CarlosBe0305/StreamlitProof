@@ -37,7 +37,7 @@ else:
 st.subheader("Selectbox")
 in_mod = st.selectbox(
   "Selecciona la modalidad",
-  ("Audio","Visual";"Háptico"),
+  ("Audio","Visual","Háptico"),
 )
 if in_mod =="Audio":
   set_mod = "Reproducir audio"
